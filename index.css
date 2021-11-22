@@ -1,0 +1,112 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.title-left{
+    border: 1px solid black;
+    padding: 20px;
+    width: 150px;
+}
+.title > p{
+    margin: 0px;
+    text-align: center; 
+}
+.title-centre{
+    text-align: center;
+    width: 600px;
+    font-size: 30px;
+
+}
+.title-right{
+    width: 150px;
+    text-align: center;
+}
+.date-para{
+    text-align: center;
+    margin: 0px;
+}
+.topic-1{
+    text-decoration: underline;
+    font-weight: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-stretch:wider;
+    font-size: 40px;
+}
+#sub-para{
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+}
+.flex-container{
+    display: flex;
+}
+.main-left{
+    width: 80%;
+}
+main-right{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+}
+.right-1,.right-3, .right-5{
+    display: flex;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+}
+
+.right-2, .right-4, .right-6{
+    display: flex;
+}
+.sub-right-2-left{
+    width: 125px;
+    display: inline;
+}
+.sub-right-2-right{
+    width: 125px;
+    display: inline;
+    text-align: center;
+
+}
+.sub-right-3-left, .sub-right-4-left{
+    width: 125px;
+    display: inline;
+
+}
+.sub-right-3-right, .sub-right-4-right{
+    width: 125px;
+    display: inline;
+    text-align: center;
+}
+.head>img{
+    width: 80%;
+    margin-left: 80px;
+}
+.main-left-1{
+    width: 15%;
+    margin: 0px;
+    display: inline-block;
+    border-right: 1px solid black;
+    
+}
+.main-left-2{
+    display: inline-block;
+    padding: 0px;
+    height: 250px;
+    width: 70%;
+    margin-top: 25px;
+    text-align: top;
+    line-height: 20px;
+    float: right;
+}
+.main-left-2-content{
+    display: inline-block;
+    padding: 0px;
+    height: 5px;
+    width: 80%;
+    margin-top: 0px;
+    text-align: top;
+    line-height: 20px;
+    float: right;
+}
